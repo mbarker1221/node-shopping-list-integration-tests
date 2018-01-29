@@ -1,9 +1,9 @@
 language: node_js
 node_js: node
-deploy:
+deploy: 
   provider: heroku
   api_key:
     secure: UI0ACIjopcKlFeuTqlxZkOwfYV/A8Zoq4whZlB17Z7geJEDLo1XPoTL3QHekB8rYieHBGY/tJZOpsxVFryiWDCO204850ffhwfKQXZswvftf2bPReCOHUXK0P9TWt9o1c0Da+pIEYJVeUS0Ln9GEIRjLzXSwaWO3pTbfmYTXjV7IU01f6qL3lC5xncqQ9eqMAKAUF+yf6/cq65Bz/KaaT3oIZE9PjN85TlvqS5Dkc5cbi9/FktIf5LP/TDETmZNvquDEqBBL5i5MPCJhQlQ8jHfjmztfeJsmGaDN1OsceCwv7Xh6kLAKBiMq8H2YfDlo2MAsCD7n73P0+PF0SkWEULYWsFnTsu72oJwh0CT5ARowZvyuAsgftfXXlnIWnJthm77P+95eDFLKwXdGx1Jwq8f3oDjJmEffzK9tLYeEiQ/KTx2LURNbbrm9UqM16stL7QSySd2pu/SWIJ63T0EeFzLeJye5NSO7sX4SilWD+CMStlgs5hnSDigtT+XnDJIvo9kX+2k3gpKGmd1nWbMH13DqlJzbLKM6z8OruiKEjAxeiY9Ab7oY9+iTOyDmB4HdGDz3eGT9ooKw3ZZdDxLOb1iSMSMBNfl+dTFuYFhgerD19IM21w58l4bGOUasVk1qHbfaNlFd40tQNDNSW+vRENAEY1fmvmoqZ8Uh7NiEm9s=
-  app: node-shopping-list-integration-tests
+  app: young-badlands-39418
   on:
     repo: mbarker1221/node-shopping-list-integration-tests
